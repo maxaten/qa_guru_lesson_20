@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qa-guru-lesson-19"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "qa_guru_lesson_19"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selene = "2.0.b17"
+pytest = "^7.4.0"
+jsonschema = "^4.17.3"
+curlify = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
